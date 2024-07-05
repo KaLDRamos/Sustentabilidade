@@ -31,6 +31,7 @@
 .apresentacao{
  padding-top: 170PX;
  padding-left: 10%;
+ padding-right: 10%;
  align-items: center;
  justify-content: space-between;
 }
@@ -49,7 +50,7 @@
 }
 
 .apresentacao__conteudo__texto{
- font-size: 2rem;
+ font-size: 1.6rem;
  font-family: 'Montserrat', sans-serif;
  color: var(--cor-secundaria);
  padding: 0% 0% 0% 0%; 
@@ -110,9 +111,10 @@ height: 400;
 }
 
 .footer {
- padding: 5% 0% 0% 10%;
- color: var(--cor-terciaria);
- font-size: 1.5rem;
+ padding: 1% 0% 0% 10%;
+ background-color: #0d2821;
+ color: var(--cor-secundaria);
+ font-size: 1rem;
  font-family: 'Montserrat', sans-serif;
 }
 
