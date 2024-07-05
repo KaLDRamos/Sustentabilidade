@@ -1,7 +1,7 @@
 :root {
-    --cor-primaria: #022704;
-    --cor-secundaria: #fcf8e7;
-    --cor-terciaria: #2c270a;
+    --cor-primaria: #184b3c;
+    --cor-secundaria: #f2ffdb;
+    --cor-terciaria: #14342b;
 }
 
 *{
@@ -11,27 +11,30 @@
 }
 
 .cabecalho {
-    padding: 2% 10% 0% 10%;
+    position: fixed;
+    padding: 0% 0% 0% 10%;
+    width: 100%;
     background: var(--cor-secundaria)
 }
 
 .cabecalho__menu__link {
- font-family: 'Monserrat', sans-serif;
- font-size: 1.5rem;
- font-weight: 400;
- color: var(--cor-terciaria)
+     font-family: 'Monserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--cor-terciaria)
 }
 
 .body{
- /* background-color: var(--cor-primaria) */
- background-image: linear-gradient(#2c270a, #bab28d)
+     background-image: linear-gradient(#0d2821, #327a64);
 }
 
 .apresentacao{
- padding:2% 10%;
+ padding-top: 170PX;
+ padding-left: 10%;
  align-items: center;
  justify-content: space-between;
 }
+
 .apresentacao__conteudo{
  width: 100%;
  display: flex;
@@ -41,7 +44,7 @@
 .apresentacao__conteudo__titulo{
  font-size: 2.25rem;
  font-family: 'Krona One', sans-serif;
- color: var(--cor-secundaria);
+ color: #b0f6d2;
  padding: 0% 0% 0% 0%;
 }
 
@@ -78,12 +81,12 @@ height: 400;
 .apresentacao__links__link{
  display: flex;
  justify-content: space-around;
- border: 2px solid var(--cor-terciaria);
+ border: 2px solid #39b28e;
  border-radius:30px;
  font-size: 1.5rem;
  width: 70%;
  height: auto;
- background-color: #164e16;
+ background-color: #24241c;
  font-weight: 100;
  padding: 20px;
  text-decoration: none;
@@ -108,8 +111,8 @@ height: 400;
 
 .footer {
  padding: 5% 0% 0% 10%;
- color: var(--cor-terciaria)
- font-size:1rem;
+ color: var(--cor-terciaria);
+ font-size: 1.5rem;
  font-family: 'Montserrat', sans-serif;
 }
 
@@ -170,12 +173,12 @@ height: 400;
 }
 
 .card:hover .img-box{
-    top: -100px;
+    top: -50px;
     scale: 0.5;
     transition: 0.75s;
 }
 
-card .img-box img{
+.card .img-box img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -200,23 +203,13 @@ card .img-box img{
     height: 250px;
 }
 
-*************
-.card .read__more {
-    background-color: linear-gradient(90deg, #022003, #052406);
-    color: var(--cor-secundaria);
+.card .read-more {
+    background-color: #81bcaa;
+    color: var(--cor-terciaria);
     text-decoration: none;
-    border-radius: 8px;
+    font-size: 1.5rem;
+    font-family: 'Krona One', sans-serif;
 }
 
- /* width: 40%;
- height: auto;
- background-color: var(--cor-primaria);
- font-weight: 100;
- 
- text-decoration: none;
- color: var(--cor-secundaria);
- font-family: 'Montserrat', sans-serif;
- align-items:center; 
- margin-bottom: 10%; */
 
 
