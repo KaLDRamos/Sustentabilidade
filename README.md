@@ -1,4 +1,4 @@
-<h1>Um futuro sustentável: Construindo juntos um mundo mais verde!</h1>
+<h1>Um futuro sustentável:<br>Construindo juntos um mundo mais verde!</h1>
 <h2>Apresentamos o EcoRenda, um portal que conecta doadores e coletores para promover a sustentabilidade e a redistribuição de recursos.</h2>
 
 <h1>♻Nossa missão:</h1>
