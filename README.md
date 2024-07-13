@@ -12,17 +12,17 @@ Auxiliar pessoas em situação de vulnerabilidade: Doações de produtos em bom 
 Acesse dicas práticas para reduzir o consumo, reutilizar materiais e descartar corretamente o lixo.<br>
 Encontre informações sobre os benefícios da sustentabilidade para o meio ambiente e para a sociedade.<br></h2>
 
-<h2>📝 Cadastre-se como doador ou coletor:(em Desenvolvimento)</h2>
+<h2>📝 Cadastre-se como doador ou coletor:   (em Desenvolvimento)</h2>
 <p>Doadores: Cadastre os itens que você deseja doar, incluindo fotos, descrição e local de retirada.<br>
 Coletores: Informe o tipo de material que você coleta, sua área de atuação e horários de disponibilidade.</p>
 
-<h2>🔌 Conecte-se e faça a diferença:(em Desenvolvimento)</h2>
+<h2>🔌 Conecte-se e faça a diferença:   (em Desenvolvimento)</h2>
 <p>O sistema conecta doadores e coletores de forma eficiente, facilitando a logística da doação e coleta.<br>
 O contato entre doadores e coletores é feito diretamente pelo site, sem custos ou intermediários.<br>
 Acompanhe o impacto positivo das suas ações através de relatórios e histórias inspiradoras.<br>
 Junte-se a nós e faça parte da mudança!</p>
 
-<h2>🎁#DOE (em Desenvolvimento)</h2> 
+<h2>🎁#DOE:   (em Desenvolvimento)</h2> 
 <p>Compartilhe seus recursos com quem precisa e dê um novo destino a itens que ainda podem ser utilizados.<br>
 Seja um coletor: Ajude a desviar materiais do aterro sanitário e contribua para a economia circular.<br>
 Divulgue o EcoRenda: Compartilhe o site com seus amigos, familiares e comunidades para ampliarmos o alcance do nosso projeto.<br>
