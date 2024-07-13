@@ -6,22 +6,52 @@
 
 *{
     margin: 0;
-
     padding: 0;
+    box-sizing: border-box;
 }
 
-.cabecalho {
-    position: fixed;
-    padding: 0% 0% 0% 10%;
+.container{
+   max-width: 1080px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header{
+    background-color: #f2ffdb;
     width: 100%;
-    background: var(--cor-secundaria)
+    padding: 10px;
 }
 
-.cabecalho__menu__link {
-     font-family: 'Monserrat', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--cor-terciaria)
+.logo {
+    width: 25%;
+}
+
+.logo img {
+    width: 25%;
+}
+
+.menu {
+    width: 50%;
+}
+
+.header .menu nav a {
+    font-size: 18px; /* Tamanho da fonte em pixels */
+    font-family: 'Montserrat', sans-serif; /* Família de fontes */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    color: var(--cor-terciaria); /* Cor do texto */
+    text-decoration: none; /* Remover decoração padrão */
+    line-height: 1.5; /* Altura da linha */
+  }
+
+.header .sociais button i {
+    width: 40px;
+    height: 40px;
+}
+
+.sociais button i{
+    font-size: 50px;
 }
 
 .body{
