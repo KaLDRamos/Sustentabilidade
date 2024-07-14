@@ -7,51 +7,60 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.container{
-   max-width: 1080px;
-   margin: 0 auto;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.header{
+.header {
     background-color: #f2ffdb;
     width: 100%;
-    padding: 10px;
+    padding-top: 15PX;
+    align-items: center;
+    justify-content:space-between;
+    
 }
 
-.logo {
+.container {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+}
+
+.logo,.sociais {
     width: 25%;
 }
 
-.logo img {
-    width: 25%;
+.logo img{
+width: 250px;
 }
 
 .menu {
-    width: 50%;
+    max-width: 50%;
+    cursor:pointer;
 }
 
-.header .menu nav a {
+.menu nav a {
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    padding-right: 150px;
     font-size: 18px; /* Tamanho da fonte em pixels */
-    font-family: 'Montserrat', sans-serif; /* Família de fontes */
-    font-weight: bold; /* Peso da fonte (negrito) */
-    color: var(--cor-terciaria); /* Cor do texto */
-    text-decoration: none; /* Remover decoração padrão */
     line-height: 1.5; /* Altura da linha */
   }
 
-.header .sociais button i {
+.sociais button {
     width: 40px;
     height: 40px;
+    font-size: 50px;
+    background-image: linear-gradient(45deg,#2be2c9, #b1d0c4);
+    border-radius: 8px;
+    border-color: #0d2821;
+    cursor:pointer;
+    margin-right: 10px;
 }
 
-.sociais button i{
-    font-size: 50px;
+.sociais button {
+    font-size: 20px;
+    color: #0d2821;
 }
 
 .body{
@@ -59,7 +68,7 @@
 }
 
 .apresentacao{
- padding-top: 170PX;
+ padding-top: 70PX;
  padding-left: 10%;
  padding-right: 10%;
  align-items: center;
@@ -72,12 +81,20 @@
  flex-direction:column;
  gap: 40px;
 }
+
 .apresentacao__conteudo__titulo{
  font-size: 2.25rem;
  font-family: 'Krona One', sans-serif;
- color: #b0f6d2;
+ color: #e6f7f7;
  padding: 0% 0% 0% 0%;
 }
+
+.apresentacao__conteudo__destaque{
+    font-size: 1.8rem;
+    font-family: 'Krona One', sans-serif;
+    color: #def0f0;
+    padding: 0% 0% 0% 0%;
+   }
 
 .apresentacao__conteudo__texto{
  font-size: 1.6rem;
